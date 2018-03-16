@@ -2,6 +2,13 @@
 
 A Chrome extension that shows lists of pull requests that require your attention.
 
+It shows up to four lists of pull requests that require your attention. The lists are:
+
+* Your pull requests which have been reviewed and are ready to be merged
+* Your pull requests which have had changes requested or comments that need to be addressed
+* Your pull requests that have not been reviewed by enough users yet
+* Other users' pull requests for which your review has been requested
+
 ## Installation/Usage
 
 1. Clone this repository to your computer.
