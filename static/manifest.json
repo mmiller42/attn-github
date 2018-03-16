@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "ATTN: GitHub",
+  "description": "A Chrome extension that shows lists of pull requests that require your attention.",
+  "version": "0.1.0",
+  "permissions": [
+    "storage",
+    "background"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "ATTN: GitHub"
+  },
+  "background": {
+    "scripts": ["manifest.js", "vendor.js", "poll.js"]
+  }
+}

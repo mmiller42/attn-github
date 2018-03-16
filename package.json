@@ -1,0 +1,22 @@
+{
+  "name": "attn-github",
+  "version": "0.0.0",
+  "description": "A Chrome extension that shows lists of pull requests that require your attention.",
+  "scripts": {
+    "start": "poi",
+    "build": "poi build"
+  },
+  "main": "index.js",
+  "author": "Matt Miller <me@mmiller.me>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lodash": "^4.17.5",
+    "poi": "^9.6.13",
+    "poi-preset-react": "^9.2.1",
+    "qs": "^6.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
